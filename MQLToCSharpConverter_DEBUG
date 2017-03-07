@@ -1,0 +1,25 @@
+//|---HelloAlveo_03.mq4
+//| Expert initialization function
+int OnInit()
+  {
+//---
+   return(INIT_SUCCEEDED);
+  }
+//| Expert deinitialization function 
+void OnDeinit(const int reason)
+  {
+//---
+  }
+//| Expert tick function   
+void start(){
+   int total = 1;
+for(int i=total-1;i>=0;i--)
+   {
+   for(int j=i;j>=1;j--)
+//---
+       Print(
+	"HELLO! Alveo"
+	);
+  }
+}
+//--- End of File
